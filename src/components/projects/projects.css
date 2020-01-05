@@ -2,6 +2,12 @@
   margin: 20px;
 }
 
+@media screen and (max-width: 500px) {
+  .projects {
+    margin: 20px 10px;
+  }
+}
+
 .projects h1, .projects h2, .projects h5 {
   text-align: center;
 }
@@ -52,6 +58,12 @@
   background-color: white;
 }
 
+@media screen and (max-width: 500px) {
+  .project {
+    padding: 5px;
+  }
+}
+
 .project.fade-in {
   opacity: 1;
 }
@@ -74,16 +86,10 @@
   margin: 10px 15px;
 }
 
-.description-div {
-
-}
-
 p {
   font-weight: normal;
   font-size: 18px;
   line-height: 24px;
-  /* margin-right: 20px;
-  margin-left: 20px; */
   max-width: 400px;
 }
 
@@ -94,8 +100,8 @@ iframe {
 
 @media screen and (max-width: 500px) {
   iframe {
-    width: 350px;
-    height: 200px;
+    width: 340px;
+    height: 192px;
   }
 }
 
