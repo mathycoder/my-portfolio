@@ -1,0 +1,109 @@
+.projects {
+  margin: 20px;
+}
+
+.projects h1, .projects h2, .projects h5 {
+  text-align: center;
+}
+
+.projects h1 {
+  margin: 10px;
+}
+
+.projects h5 {
+  font-style: italic;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+.project-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-icons div {
+  border: 2px solid #DDD;
+  height: min-content;
+  margin-right: 4px;
+}
+
+.project-icons div.selected {
+  border: 2px solid #333;
+}
+
+.project-icon img {
+  width: 150px;
+  height: 50px;
+  margin-bottom: -3px;
+}
+
+/* ----------------------------------- */
+
+.project {
+  transition: opacity 1s;
+  opacity: 0;
+  margin: 20px auto;
+  padding: 20px;
+  border: solid 2px #333;
+  border-radius: 10px;
+  max-width: 900px;
+  box-shadow: 5px 10px 8px #888888;
+  background-color: white;
+}
+
+.project.fade-in {
+  opacity: 1;
+}
+
+.project .title-image img {
+  width: 250px;
+}
+
+.project .project-first-row {
+  font-size: 22px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.project .project-first-row div {
+  margin: 10px 15px;
+}
+
+.project .project-media-image {
+  width: 400px;
+  height: 250px;
+  object-fit: contain;
+}
+
+.github-logo {
+  position: relative;
+  width: 25px;
+}
+
+.project-second-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+p {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 400px;
+}
+
+.project-second-row .bulletpoints {
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
