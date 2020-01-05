@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import HomePage from './components/homePage/HomePage'
 import NavBar from './components/navBar/NavBar'
 import About from './components/about/About'
 import Projects from './components/projects/Projects'
@@ -14,6 +15,7 @@ class App extends Component {
             <NavBar />
           </header>
           <main>
+            <Route exact path="/" component={HomePage} />
             <Route exact path="/about" component={About} />
             <Route exact path="/projects" component={Projects} />
             <Route exact path="/blog" component={Blog} />

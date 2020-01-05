@@ -40,16 +40,19 @@
 }
 
 .project-icons div {
-  border: 2px solid #DDD;
+  /* border: 2px solid #DDD; */
   height: min-content;
-  margin-right: 4px;
+  margin-right: 0px;
+  transform: scale(0.95);
   transition: opacity 0.5s;
-  opacity: 0.6;
+  transition: transform 0.5s;
+  opacity: 0.55;
 }
 
 .project-icons div.selected {
-  border: 2px solid #333;
+  /* border: 2px solid #333; */
   opacity: 1;
+  transform: scale(1);
 }
 
 .project-icon img {
