@@ -19,6 +19,7 @@ class Project extends Component {
     return (
       <div className={`project ${ opaque ? 'fade-in': ''}`}>
         <h1>{project.title}</h1>
+        <h6>{project.titleDescription}</h6>
         <div className="project-first-row">
           <div className="description-div">
             <p>{project.description}</p>

@@ -9,14 +9,14 @@ class Projects extends Component {
     project: null
   }
 
-  componentDidMount(){
-    const project = myProjects.find(proj => proj.id === 1)
-    this.setState({
-      projectId: 1,
-      project: project
-
-    })
-  }
+  // componentDidMount(){
+  //   const project = myProjects.find(proj => proj.id === 1)
+  //   this.setState({
+  //     projectId: 1,
+  //     project: project
+  //
+  //   })
+  // }
 
   handleIconClick = (proj) => {
     this.setState({
@@ -30,7 +30,7 @@ class Projects extends Component {
     const { project, projectId } = this.state
     return (
       <div className="projects">
-        <h5>Select a Project!!!:</h5>
+        <h5>Select a Project:</h5>
         <div className="project-icons">
         {myProjects.map(proj => (
           <div
