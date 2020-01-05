@@ -30,7 +30,7 @@ class Projects extends Component {
     const { project, projectId } = this.state
     return (
       <div className="projects">
-        <h5>Select a Project:</h5>
+        <h5>Select a Project!!!:</h5>
         <div className="project-icons">
         {myProjects.map(proj => (
           <div
