@@ -20,14 +20,13 @@ class Project extends Component {
       <div className={`project ${ opaque ? 'fade-in': ''}`}>
         <h1>{project.title}</h1>
         <div className="project-first-row">
-          <div>
+          <div className="description-div">
             <p>{project.description}</p>
           </div>
           <div>
             <iframe
               title="video preview"
               id="video" type="text/html"
-              width="400" height="240"
               src={project.demoUrl}
               frameBorder="0"
               allowFullScreen
