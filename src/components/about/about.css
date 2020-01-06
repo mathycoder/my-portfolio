@@ -14,8 +14,17 @@
 }
 
 .classroom-pic img {
-  width: 400px;
+  width: 500px;
+  height: 278px;
   border-radius: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .classroom-pic img {
+    width: 360px;
+    height: 200px;
+    border-radius: 15px;
+  }
 }
 
 .bio {
