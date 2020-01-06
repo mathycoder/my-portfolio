@@ -18,6 +18,31 @@ class About extends Component {
             {"After a few months exploring Python on Coursera, I fell in love with coding.  I was accepted with a scholarship to the Flatiron School.  Now I'm a Full stack web developer with experience in Ruby and JavaScript frameworks. "}
           </div>
         </div>
+        <h2 className="tech-boxes-title">Technologies</h2>
+        <div className="tech-boxes">
+          <div className="front-end tech-box">
+            <h3>Front End</h3>
+            <div className="techs">
+              <img alt="react" src="/images-tech/react.jpg"/>
+              <img alt="redux" src="/images-tech/redux.png"/>
+              <img alt="html5" src="/images-tech/html.png"/>
+              <img alt="css3" src="/images-tech/css.png"/>
+              <img alt="js" src="/images-tech/js.png"/>
+              <img alt="es6" src="/images-tech/es6.jpg"/>
+              <img alt="jquery" src="/images-tech/jQuery.png"/>
+            </div>
+          </div>
+
+          <div className="back-end tech-box">
+            <h3>Back End</h3>
+            <div className="techs">
+              <img alt="rails" src="/images-tech/rails.png"/>
+              <img alt="sinatra" src="/images-tech/sinatra.jpeg"/>
+              <img alt="ruby" src="/images-tech/python.png"/>
+              <img alt="sql" src="/images-tech/sql.png"/>
+            </div>
+          </div>
+        </div>
       </div>
     )
   }
