@@ -1,0 +1,43 @@
+.about {
+  margin: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .about {
+    margin: 20px 10px;
+  }
+}
+
+.classroom-pic {
+  display: flex;
+  justify-content: center;
+}
+
+.classroom-pic img {
+  width: 400px;
+  border-radius: 20px;
+}
+
+.bio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: white;
+  border: solid 2px #333;
+  border-radius: 10px;
+  max-width: 800px;
+  padding: 20px;
+  box-shadow: 5px 10px 8px #888888;
+  margin: 20px auto;
+}
+
+@media screen and (max-width: 500px) {
+  .bio {
+    padding: 15px;
+  }
+}
+
+.bio div {
+  font-size: 17px;
+  margin: 10px 0;
+}
