@@ -21,7 +21,7 @@ export const myProjects = [
     titleImage: "/images/my-gradebook-logo.png",
     titleDescription: "jQuery/VanillaJS front-end with Rails API backend",
     appImage: "/images/my-gradebook-pic.png",
-    description: "I built MyGradebook to make standards-based grading easier and more intuitive for teachers.  The application makes it easy for teachers to see how their students are doing on the Common Core Standards.  Line and Bar give teachers immediate feedback on who knows what, and where to go next.  For any school hoping to make the jump to standards-based grading, this app would definitely help them on that journey!",
+    description: "I built MyGradebook to make standards-based grading easier and more intuitive for teachers.  The application makes it easy for teachers to see how their students are doing on the Common Core Standards.  Line and bar graphs give teachers immediate feedback on who knows what, and where to go next.  For any school hoping to make the jump to standards-based grading, this app would definitely help them on that journey!",
     githubUrl: "https://github.com/mathycoder/mygradebook-js",
     demoUrl: "http://www.youtube.com/embed/6h50pqRM3aI",
     bullets: [
@@ -39,7 +39,7 @@ export const myProjects = [
     titleImage: "/images/memory-lane-logo.png",
     titleDescription: "Built with Ruby/Sinatra MVC",
     appImage: "/images/memory-lane-pic.png",
-    description: "MemoryLane provides a more intimate way to share memories than Facebook or Instagram.  Users start by creating a lane with two or more people.  Then anyone in the lane can add a memory or contribute to other memories by adding their own recollections and photos.  The app is a great place for users to reminisce on old memories and recollections, or share create new memories and share photos for new adventures!",
+    description: "MemoryLane provides a more intimate way to share memories than Facebook or Instagram.  Users start by creating a lane with two or more people.  Then anyone in the lane can add a memory or contribute to other memories by adding their own recollections and photos.  The app is a great place for users to reminisce on old memories and recollections, or record brand new memories and share photos from new adventures!",
     githubUrl: "https://github.com/mathycoder/memory_lane",
     demoUrl: "http://www.youtube.com/embed/d3hfnxCV2V4",
     bullets: [
