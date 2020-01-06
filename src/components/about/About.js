@@ -38,7 +38,8 @@ class About extends Component {
             <div className="techs">
               <img alt="rails" src="/images-tech/rails.png"/>
               <img alt="sinatra" src="/images-tech/sinatra.jpeg"/>
-              <img alt="ruby" src="/images-tech/python.png"/>
+              <img alt="ruby" src="/images-tech/ruby.png"/>
+              <img alt="python" src="/images-tech/python.png"/>
               <img alt="sql" src="/images-tech/sql.png"/>
             </div>
           </div>
