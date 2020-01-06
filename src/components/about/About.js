@@ -18,7 +18,7 @@ class About extends Component {
             {"After a few months exploring Python on Coursera, I fell in love with coding.  I was accepted with a scholarship to the Flatiron School.  Now I'm a Full stack web developer with experience in Ruby and JavaScript frameworks. "}
           </div>
         </div>
-        <h2 className="tech-boxes-title">Technologies</h2>
+        <h2 className="tech-boxes-title">My Technologies</h2>
         <div className="tech-boxes">
           <div className="front-end tech-box">
             <h3>Front End</h3>
@@ -43,6 +43,24 @@ class About extends Component {
               <img alt="sql" src="/images-tech/sql.png"/>
             </div>
           </div>
+        </div>
+
+        <div className="contact-me">
+          <h2 className="contact-me-title">Connect With Me</h2>
+        </div>
+        <div className="contact-icons">
+          <a href="https://github.com/mathycoder" target="_blank">
+            <img alt="github" src="/images-icons/github.png"/>
+          </a>
+          <a href="mailto:adam.sarli@gmail.com">
+            <img alt="gmail" src="/images-icons/gmail.png"/>
+          </a>
+          <a href="https://www.linkedin.com/in/adam-sarli/" target="_blank">
+            <img alt="linkedin" src="/images-icons/linkedin.png"/>
+          </a>
+          <a href="https://twitter.com/Adam_Sarli" target="_blank">
+            <img alt="twitter" src="/images-icons/twitter.png"/>
+          </a>
         </div>
       </div>
     )
