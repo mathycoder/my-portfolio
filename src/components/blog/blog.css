@@ -1,0 +1,23 @@
+.blog {
+  margin: 20px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-bubble {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  border: solid 2px #333;
+  border-radius: 10px;
+  max-width: 350px;
+  padding: 20px;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.blog-bubble div {
+  margin: 10px;
+}

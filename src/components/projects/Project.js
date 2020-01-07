@@ -37,13 +37,18 @@ class Project extends Component {
         </div>
         <div className="project-second-row">
           <div>
-            <img className="project-media-image" src={project.appImage}/>
+            <img
+              alt={`${project.title} element`}
+              className="project-media-image"
+              src={project.appImage}/>
           </div>
           <div className="bulletpoints">
             <ul>
               {project.bullets.map(bullet => <li>{bullet}</li>)}
             </ul>
-            <a href={project.githubUrl} target="_blank">
+            <a href={project.githubUrl}
+              rel="noopener noreferrer"
+              target="_blank">
               <img className="github-logo" src="/images/github.png" alt="github icon"/>
             </a>
           </div>

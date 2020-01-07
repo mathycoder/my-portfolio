@@ -49,16 +49,25 @@ class About extends Component {
           <h2 className="contact-me-title">Connect With Me</h2>
         </div>
         <div className="contact-icons">
-          <a href="https://github.com/mathycoder" target="_blank">
+          <a
+            rel="noopener noreferrer"
+            href="https://github.com/mathycoder"
+            target="_blank">
             <img alt="github" src="/images-icons/github.png"/>
           </a>
           <a href="mailto:adam.sarli@gmail.com">
             <img alt="gmail" src="/images-icons/gmail.png"/>
           </a>
-          <a href="https://www.linkedin.com/in/adam-sarli/" target="_blank">
+          <a
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/adam-sarli/"
+            target="_blank">
             <img alt="linkedin" src="/images-icons/linkedin.png"/>
           </a>
-          <a href="https://twitter.com/Adam_Sarli" target="_blank">
+          <a
+            rel="noopener noreferrer"
+            href="https://twitter.com/Adam_Sarli"
+            target="_blank">
             <img alt="twitter" src="/images-icons/twitter.png"/>
           </a>
         </div>
