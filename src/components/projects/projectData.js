@@ -48,5 +48,20 @@ export const myProjects = [
       "Developed a Sinatra front-end using the MVC pattern with ERB and CSS.",
       "My first exploration of CSS Flexbox and CSS Grid"
     ]
+  },
+  {
+    id: 4,
+    title: "Pet Rescue!",
+    titleImage: "/images/pet-rescue.png",
+    titleDescription: "Built with Python",
+    appImage: "/images/pet-rescue-pic.png",
+    description: "Before attending Flatiron, I began my coding journey on Coursera learning Python.  After a course where we created Pong and a version of Asteroids, I decided to try and create a platformer from scratch.  The result is a fun side-scrolling video game, where my niece attempts to rescue all of her missing pets.  This 'pet' project allowed me to explore a visual GUI, something I hope to one day do within educational applications.",
+    githubUrl: "http://www.codeskulptor.org/#user45_K6NyFvtQe5_9.py",
+    demoUrl: "http://www.youtube.com/embed/ti942vuIiPI",
+    bullets: [
+      "Explored object-oriented programming to organize behavior of main character, enemies, and game elements.",
+      "Utilized basic physics around velocity, acceleration, and friction to mimic gravity and surfaces.",
+      "Developed various levels using Python dictionaries and lists, setting the stage for arrays, objects, and hashes in Ruby and JavaScript."
+    ]
   }
 ]
