@@ -60,7 +60,7 @@ export const myProjects = [
     demoUrl: "http://www.youtube.com/embed/ti942vuIiPI",
     bullets: [
       "Explored object-oriented programming to organize behavior of main character, enemies, and game elements.",
-      "Utilized SimpleGUI and recursion to animate sprites and other graphics."
+      "Utilized SimpleGUI and recursion to animate sprites and other graphics.",
       "Utilized basic physics around velocity, acceleration, and friction to mimic gravity and surfaces.",
       "Developed various levels using Python dictionaries and lists, setting the stage for arrays, objects, and hashes in Ruby and JavaScript."
     ]
