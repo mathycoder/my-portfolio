@@ -54,7 +54,7 @@ export const myProjects = [
     title: "Pet Rescue!",
     titleImage: "/images/pet-rescue.png",
     titleDescription: "Built with Python",
-    appImage: "/images/pet-rescue-pic.png",
+    appImage: "/images/pet-rescue-pic3.png",
     description: "Before attending Flatiron, I began my coding journey on Coursera learning Python.  After a course where we created Pong and a version of Asteroids, I decided to try and create a platformer from scratch.  The result is a fun side-scrolling video game, where my niece attempts to rescue all of her missing pets.  This 'pet' project allowed me to explore a visual GUI, something I hope to one day do within educational applications.",
     githubUrl: "http://www.codeskulptor.org/#user45_K6NyFvtQe5_9.py",
     demoUrl: "http://www.youtube.com/embed/ti942vuIiPI",
