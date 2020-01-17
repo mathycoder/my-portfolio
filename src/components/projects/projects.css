@@ -33,6 +33,17 @@
   margin-bottom: 5px;
 }
 
+.live-site-button {
+  display: block;
+  text-align: center;
+}
+
+.live-site-button button {
+  cursor: pointer;
+}
+
+
+
 .project-icons {
   display: flex;
   flex-wrap: wrap;
