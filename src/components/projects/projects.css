@@ -2,12 +2,6 @@
   margin: 20px;
 }
 
-@media screen and (max-width: 500px) {
-  .projects {
-    margin: 20px 10px;
-  }
-}
-
 .projects h1, .projects h2, .projects h5 {
   text-align: center;
 }
@@ -57,8 +51,6 @@
   outline: none;
 }
 
-
-
 .project-icons {
   display: flex;
   flex-wrap: wrap;
@@ -66,7 +58,6 @@
 }
 
 .project-icons div {
-  /* border: 2px solid #DDD; */
   height: min-content;
   margin-right: 0px;
   transform: scale(0.95);
@@ -76,7 +67,6 @@
 }
 
 .project-icons div.selected {
-  /* border: 2px solid #333; */
   opacity: 1;
   transform: scale(1);
 }
@@ -99,12 +89,6 @@
   max-width: 900px;
   box-shadow: 5px 10px 8px #888888;
   background-color: white;
-}
-
-@media screen and (max-width: 500px) {
-  .project {
-    padding: 5px;
-  }
 }
 
 .project.fade-in {
@@ -141,14 +125,7 @@ iframe {
   height: 240px;
 }
 
-@media screen and (max-width: 500px) {
-  iframe {
-    width: 340px;
-    height: 192px;
-  }
-}
-
-.project .project-media-image {
+.project img.project-media-image {
   width: 400px;
   height: 250px;
   object-fit: contain;
@@ -171,4 +148,39 @@ iframe {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+  .projects {
+    margin: 20px 10px;
+  }
+
+  .project {
+    padding: 5px;
+  }
+
+  iframe {
+    width: 340px;
+    height: 192px;
+  }
+
+  .project img.project-media-image {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  iframe {
+    width: 310px;
+    height: 165px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  iframe {
+    width: 290px;
+    height: 147px;
+  }
 }
