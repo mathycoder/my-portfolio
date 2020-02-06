@@ -23,7 +23,7 @@ class Project extends Component {
         {project.liveLink ?
           <div className="live-site-button">
             <a href={project.liveLink} target="_blank" rel="noopener noreferrer">
-              <button>Visit Live Site</button>
+              <button>{project.liveLinkMobile ? 'Visit Live Site (Mobile or Desktop)' : 'Visit Live Site (Desktop only)' }</button>
             </a>
           </div> : ''}
         <div className="project-first-row">

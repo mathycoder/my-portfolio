@@ -3,6 +3,7 @@ export const myProjects = [
     id: 1,
     title: "Student Agendas",
     liveLink: "https://studentagendas.herokuapp.com",
+    liveLinkMobile: true,
     titleImage: "/images/student-agendas-logo.png",
     titleDescription: "React/Redux front-end with Rails API backend",
     appImage: "/images/student-agendas-pic.png",
@@ -19,6 +20,8 @@ export const myProjects = [
   {
     id: 2,
     title: "MyGradebook",
+    liveLink: "https://my-gradebook.herokuapp.com",
+    liveLinkMobile: false,
     titleImage: "/images/my-gradebook-logo.png",
     titleDescription: "jQuery/VanillaJS front-end with Rails API backend",
     appImage: "/images/my-gradebook-pic.png",
