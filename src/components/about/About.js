@@ -24,6 +24,7 @@ class About extends Component {
             <h3>Front End</h3>
             <div className="techs">
               <img alt="react" src="/images-tech/react.jpg"/>
+              <img alt="react-native" src="/images-tech/react-native.png"/>
               <img alt="redux" src="/images-tech/redux.png"/>
               <img alt="html5" src="/images-tech/html.png"/>
               <img alt="css3" src="/images-tech/css.png"/>
