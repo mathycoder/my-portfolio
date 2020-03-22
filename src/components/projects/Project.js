@@ -30,16 +30,21 @@ class Project extends Component {
           <div className="description-div">
             <p>{project.description}</p>
           </div>
-          <div>
-            <iframe
-              title="video preview"
-              id="video" type="text/html"
-              src={project.demoUrl}
-              frameBorder="0"
-              allowFullScreen
-              >
-            </iframe>
-          </div>
+          {
+            project.demoUrl ?
+            <div>
+              <iframe
+                title="video preview"
+                id="video" type="text/html"
+                src={project.demoUrl}
+                frameBorder="0"
+                allowFullScreen
+                >
+              </iframe>
+            </div>
+            : <div><img src={project.animatedGif} alt="animated" width="350px"/></div>
+          }
+
         </div>
         <div className="project-second-row">
           <div>

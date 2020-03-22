@@ -19,6 +19,26 @@ export const myProjects = [
   },
   {
     id: 2,
+    title: "FlexSeats",
+    liveLink: "https://flexseats.herokuapp.com/",
+    liveLinkMobile: true,
+    titleImage: "/images/flexseats-logo.png",
+    titleDescription: "React Hooks/Redux front-end with Rails API backend",
+    appImage: "/images/flexseats-pic.png",
+    description: "As a teacher, I always struggled to create a seating chart that arranged students by both their ability and behavior.  To make life easy for teachers everywhere, FlexSeats does just that, using algorithms to sort students homogenously or heterogenously into pairs or groups.",
+    githubUrl: "https://github.com/mathycoder/seating-chart",
+    demoUrl: null,
+    animatedGif: "https://www.dropbox.com/s/m10qr7rp86mwm0g/flexseats-demo2-gif.gif?raw=1",
+    bullets: [
+      "Developed a Rails API backend with endpoints for teachers, klasses, and students.",
+      "Developed sorting algorithms for placing students in groups heterogenously or homogenously, which are constantly evolving.",
+      "The React front-end is created 100% with functional components, and utilizes React Hooks",
+      "Utilized react-dnd for both desktop and mobile drag-and-drop capability",
+      "Creating accompanying React Native front-end, with the hope of an App Store FlexSeats in the future!"
+    ]
+  },
+  {
+    id: 3,
     title: "MyGradebook",
     liveLink: "https://my-gradebook.herokuapp.com",
     liveLinkMobile: false,
@@ -38,7 +58,7 @@ export const myProjects = [
     ]
   },
   {
-    id: 3,
+    id: 4,
     title: "MemoryLane",
     titleImage: "/images/memory-lane-logo.png",
     titleDescription: "Built with Ruby/Sinatra MVC",
@@ -54,7 +74,7 @@ export const myProjects = [
     ]
   },
   {
-    id: 4,
+    id: 5,
     title: "Pet Rescue!",
     liveLink: "http://www.codeskulptor.org/#user45_K6NyFvtQe5_9.py",
     titleImage: "/images/pet-rescue.png",
